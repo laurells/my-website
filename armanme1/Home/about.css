@@ -1,0 +1,532 @@
+html, body {
+    background-color: #E03D2C;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+/* navBar and menu */
+
+.navbar {
+    margin-top: 50px;
+}
+
+.navbar a {
+    margin-left: 80px;
+    text-decoration: none;
+    color: #f6d8bb;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-links li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #f6d8bb;
+    transition: all 0.4s ease;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-links li a:hover:before {
+    width: 100%;
+}
+
+.button-1 {
+    width: 110px; 
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px 1px 1px 1px;
+    border-color: #f6d8bb;
+    border-style: dashed;
+    outline-width: 0px;
+    background-color: #E03D2C;
+    box-shadow: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #f6d8bb;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.button-1:hover {
+    color: #fff;
+    border-style: dashed;
+    border-color: #fff;
+}
+
+.logo-1 {
+    display: flex;
+    float: right;
+    width: 120px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4.5rem;
+}
+
+/* text and image */
+
+.img-about {
+    position: relative;
+    display: flex;
+    float: right;
+    width: 600px;
+    height: 500px;
+}
+
+.h-1 {
+    color: #f6d8bb;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.h-2 {
+    color: #f6d8bb;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+/* Scroll bar style */
+
+::-webkit-scrollbar {
+    background-color: white;
+    width: 7px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 3px 3px 3px 3px;
+}
+
+/* Respansiv */
+
+@media (max-width: 652px) {
+    .section-text {
+        display: none;
+    }
+    
+    .my-skill {
+        display: none;
+    }
+}
+
+@media (max-width: 1270px) {
+    .h-1{
+        margin-right: 30px;
+    }
+
+    .h-2{
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .service_header {
+        margin-bottom: 8px;
+    }
+
+    .copy_right {
+        margin-bottom: 8px;
+    }
+
+}
+
+@media(max-width: 625px) {
+    .logo-1{
+        display: none;
+    }
+
+    .h-1{
+        margin-left: 25px;
+    }
+
+    .h-2{
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 563px) {
+    .nav-links a {
+        margin-left: 40px;
+    }
+
+    .h-1{
+        margin-right: 30px;
+    }
+
+    .h-2{
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width: 427px) {
+    .nav-links a {
+        margin-left: 20px;
+    }
+}
+
+
+@media (max-width: 703px) {
+    .h-1{
+        margin-right: 30px;
+    }
+
+    .h-2{
+        margin-right: 30px;
+    }
+
+    .img-about {
+        display: none;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .img-about {
+        display: none;
+        margin-right: 100px;
+    }
+}
+
+.arman-img {
+    width: 770px;
+    height: 600px;
+    display: flex;
+    float: right;
+    margin-right: 40px;
+}
+
+/* text html css js */
+
+.container-text {
+    display: flex;
+    margin-left: 45.0625vw;
+    margin-top: 220px;
+}
+
+.container-text .box {
+    transform-style: preserve-3d;
+    animation: animate 25s linear infinite;
+}
+
+.container-text .box span {
+    position: absolute;
+    color: #f6d8bb;
+    font-size: 3.5em;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0 10px;
+    background: linear-gradient(80deg, transparent, rgba(0,0,0,0.5),transparent);
+    line-height: 0.76em;
+    transform-style: preserve-3d;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    transform: translate(-50%,-50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(106px);
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateX(0deg) rotate(25deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateX(368deg) rotate(25deg);
+    }
+}
+
+.container-text .box span i:nth-child(1) {
+    font-style: initial;
+    color: rgb(4, 109, 4);
+}
+
+.container-text .box span i:nth-child(2) {
+    font-style: initial;
+    color: #f6d8bb;
+}
+
+.container-text .box span i:nth-child(3) {
+    font-style: initial;
+    color: #E03D2C;
+}
+
+.my-skill {
+    color: #f6d8bb;
+    margin-top: 200px;
+    font-size: 45px;
+    margin-left: 45.13888888889vw;
+}
+
+.my-skill hr {
+    width: 140px;
+    margin-left: 2px;
+    margin-top: 5px;
+    color: #f6d8bb;
+    border-radius: 30px 30px 30px 30px;
+    height: 2.5px;
+    background-color: #f6d8bb;
+    border: none;
+}
+
+body {
+    background-color: #E03D2C;
+}
+
+/* html js, css */
+
+.container-about {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    padding: 1rem 40px;
+    font-size: 1.0rem;
+}
+
+.skill-box {
+    color: #ddd;
+}
+
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.img-skill {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-skill:after {
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1%;
+}
+
+.skill-title h3 {
+    color: #fff;
+    margin: 0.5rem;
+} 
+
+.skill-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.all-text-skill {
+    margin-top: 200px;
+    margin-right: 1.5625vw;
+}
+
+.skill-icon-css {
+    width: 91px;
+    height: 53px;
+    border-radius: 100px 100px 100px 100px;
+}
+
+/* menu  */
+
+.toggleBox a img {
+    position: fixed;
+    filter: invert(1);
+    margin-left: 2000px;
+}
+
+.icon-menu {
+    position: relative;
+    z-index: 10000;
+}
+
+/* respansiv for nav and menu */
+
+@media (max-width: 562px) {
+.nav-links li a:before {
+    display: none;
+}
+
+nav.navigation {
+    display: none;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav.navigation.active {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffd3aa;
+    font-size: 1px;
+}
+
+nav.navigation.active a {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 2.2s;
+}
+
+.navigation a {
+    display: flex;
+    margin-top: 0;
+}
+
+.navigation ul {
+    display: inline;
+}
+}
+
+@media (max-width: 500px) { 
+.navigation a {
+    margin-left: 40px;
+}
+
+.toggleBox a img {
+    filter: invert(1);
+    margin-left: 420px;
+    margin-top: 20px;
+}
+}
+
+@media (max-width: 456px) {
+    .navigation a {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    nav.navigation.active {
+        margin-left: 0px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 472px) {
+
+    .navigation a {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 592px) {
+    .toggleBox a img {
+        filter: invert(1);
+        margin-left: 5000px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 562px) {
+    .toggleBox a img {
+        margin-left: 460px;
+    }
+}
+
+@media (max-width: 402px) {
+    .toggleBox a img {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 472px) {
+    .toggleBox a img {
+        filter: invert(1);
+        margin-left: 400px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .toggleBox a img {
+        margin-left: 360px;
+        margin-top: 20px;
+    }
+} 
+
+@media (max-width: 408px) {
+    .toggleBox {
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 386px) {
+    .toggleBox {
+        margin-left: -60px;
+    }
+}
+
+@media (max-width: 344px) {
+    .toggleBox {
+        margin-left: -100px;
+    }
+}
+
+@media (max-width: 304px) {
+    .toggleBox {
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 562px) {
+
+    .section-menu {
+        background: #E03D2C;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    img.menu.hide {
+        display: none;
+    }
+    
+    img.close.show {
+        display: none;
+    }
+}
