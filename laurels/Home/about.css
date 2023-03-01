@@ -14,18 +14,25 @@ html, body {
 
 /* navBar and menu */
 
-.navbar {
-    margin-top: 50px;
+.navigation {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar a {
-    margin-left: 80px;
-    text-decoration: none;
-    color: #f6d8bb;
+
+.navbar {
+    margin-top: 20px;
 }
 
 .nav-links {
     display: flex;
+    
 }
 
 .nav-links li {
@@ -49,12 +56,18 @@ html, body {
     width: 0%;
     background: #f6d8bb;
     transition: all 0.4s ease;
-    left: 50%;
+    left:50%;
     transform: translateX(-50%);
 }
 
 .nav-links li a:hover:before {
     width: 100%;
+}
+
+.navbar a {
+    margin-left: 60px;
+    text-decoration: none;
+    color: #f6d8bb;
 }
 
 .button-1 {

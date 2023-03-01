@@ -22,7 +22,7 @@ html, body {
 }
 
 .navbar {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .nav-links {
@@ -708,13 +708,14 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #333;
+    background: blueviolet;
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     transition: 0.5s ease-in-out;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
     
 .container-card .card:hover .imgbx {
@@ -740,7 +741,7 @@ hr {
 }
 
 .container-card .card .imgbx img {
-    max-width: 100px;
+    max-width: 100%;
     transition: 0.5s ease-in-out;
 }
 
