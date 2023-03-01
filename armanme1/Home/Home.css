@@ -1,5 +1,5 @@
 html, body {
-    background-color:#E13A2A;
+    background-color:blueviolet;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -311,7 +311,7 @@ hr {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: red;
+    background-color: blueviolet;
     border-radius: 3px 3px 3px 3px;
 }
 

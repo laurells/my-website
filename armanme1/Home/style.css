@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #E23B2B;
+    background-color: blueviolet
 }
 
 /* button */
@@ -31,7 +31,7 @@ body {
 .follow {
     padding: 9.6px 0;
     width: 100%;
-    background: #ff0000;
+    background: purple;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -44,8 +44,8 @@ body {
 .share {
     padding: 7.6px 0;
     width: 100%;
-    border: 2px solid#E23B2B;
-    color: #E23B2B;
+    border: 2px solid purple;
+    color: purple;
     text-decoration: none;
     text-align: center;
     font-size: .7rem;
@@ -61,7 +61,7 @@ body {
 }
 
 .icon {
-    color: #E23B2B;
+    color: purple;
     font-size: 1.3rem;
     text-decoration: none;
     margin-right: 8px;
@@ -69,7 +69,7 @@ body {
 }
 
 .icon:hover {
-    color: #ff0000;
+    color: lightpink;
 }
 
 /* profil img */
@@ -145,7 +145,7 @@ body {
     height: 110px;
     border-radius: 50%;
     background: url('image/image.jpg') no-repeat center / cover;
-    border: 4px solid #ff0000;
+    border: 4px solid purple;
     margin-bottom: 2px;
     overflow: hidden;
 }
@@ -156,7 +156,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #00d9ff;
+    background-color: lightpink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,7 +245,7 @@ body {
     height: 270px;
     top: 0;
     left: 0;
-    background-color: #ff0000;
+    background-color: purple;
     clip-path: circle(400px at 50% -48.5%);
 }
 
@@ -285,7 +285,7 @@ body {
     line-height: 1.7;
 }
 
-/* Respansiv */
+/* Responsive */
 
 @media (max-width:410px) {
     .content {

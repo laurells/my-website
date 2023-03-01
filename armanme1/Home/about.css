@@ -1,5 +1,5 @@
 html, body {
-    background-color: #E03D2C;
+    background-color: blueviolet;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -124,7 +124,7 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: red;
+    background-color: blueviolet;
     border-radius: 3px 3px 3px 3px;
 }
 
@@ -299,7 +299,7 @@ html, body {
 }
 
 body {
-    background-color: #E03D2C;
+    background-color: blueviolet;
 }
 
 /* html js, css */
@@ -375,6 +375,152 @@ body {
 .icon-menu {
     position: relative;
     z-index: 10000;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    float: inline-end;
+    bottom: none;
+    left: 0;
+    background-color: #f6d8bb;
+    box-shadow: 0 16px 70px -8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0 0;
+    transition: background 0.3s linear;
+}
+
+.container {
+    max-width: 1240px;
+    bottom: 0;
+    padding: 30px 40px;
+    margin: auto;
+    margin-top: 700px;
+}
+
+.content_footer  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Logo footer */
+
+.logo-size {
+    width: 70px;
+    height: 70px;
+}
+
+.profil .logo_area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.profil .logo_area img {
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+/* Text footer */
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.copy_right a {
+    color: #828282;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.copy_right span {
+    color: #828282;
+    margin-left: 3px;
+    font-weight: 400;
+    letter-spacing: 0.135rem;
+}
+
+.logo_area .logo_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 1rem;
+    color: black;
+}
+
+.desc_area {
+    max-width: 320px;
+    margin-bottom: 1.25rem;
+}
+
+.desc_area p {
+    color: #828282;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* social media icon footer */
+
+.social_media a {
+    color: #828282;
+    margin-right: 10px;
+    font-size: 24px;
+    top: 37px;
+}
+
+.social_media a:hover {
+    color: #313131;
+    transition: all 0.5s;
+}
+
+/* link footer */
+
+.tou a {
+    color: #828282;
+    margin-left: 1.5rem;
+}
+
+.tou a:hover {
+    color: #313131;
+}
+
+.service_area {
+    display: flex;
+}
+
+.service_header  {
+    margin-right: 40px;
+}
+
+li.service_name {
+    color: #000;
+    font-weight: 600;
+}
+
+.service_header li a {
+    color: #828282;
+    padding-bottom: 1px;
+    font-weight: 400;
+}
+
+.service_header li a:hover {
+    color: #313131;
+}
+
+.service_header li {
+    margin-bottom: 10px;
+}
+
+hr {
+    height: 1px;
+    margin-top: 40px;
+    border: none;
+    background-color: #828282;
+    margin-bottom: 1rem;
 }
 
 /* respansiv for nav and menu */
