@@ -10,6 +10,16 @@ html, body {
 }
 
 /* Nav and menu */
+.navigation {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
 
 .navbar {
     margin-top: 50px;

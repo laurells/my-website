@@ -5,6 +5,6 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.CustomBrowser": "firefox"
+		"liveServer.settings.CustomBrowser": "chrome"
 	}
 }
