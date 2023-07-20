@@ -1,90 +1,85 @@
 <html>
-<header>
-    <!-- navBar -->
-    <!-- <nav class="navigation">
-        <nav class="navbar">
-            <ul class="nav-links">
-                <li><a class="a-1" href="">Home</a></li>
-                <li><a class="a-2" href="about.html">About Me</a></li>
-                <li><a class="a-3" href="index.html"> My Profile</a></li>
-            </ul>
-        </nav>
-    </nav> -->
-
-</header>
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <title>My Profile</title>
+    <title>Laurels Echichinwo Jr. - Coder Extraordinaire</title>
 </head>
-
 <body>
-    <!-- Profile img -->
-    <div class="modal">
-        <img src="image/image.jpg" alt="">
-        <div class="close"></div>
-    </div>
-    <!-- Profil card -->
-    <div class="container">
-        <div class="card">
-            <div class="header">
-                <div class="hamburger-menu">
-                    <div class="center"></div>
-                </div>
-                <!-- icon email -->
-                <a href="#" class="mail">
-                    <i class="far fa-envelope"></i>
-                </a>
-                <!-- text and icon -->
-                <div class="main">
-                    <div class="image">
-                        <div class="hover">
-                            <i class="fas fa-camera fa-2x"></i>
-                        </div>
-                    </div>
-                    <h3 class="name">Laurels Echichinwo Jr.</h3>
-                    <h3 class="sub-name">@codewithlaurels</h3>
-                </div>
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link" href="about.html">About Me</a></li>
+                <li><a class="nav-link" href="index.html">My Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+php
+Copy code
+<!-- Profile Image Modal -->
+<div class="modal">
+    <img src="image/image.jpg" alt="Profile Image">
+    <div class="close"></div>
+</div>
+
+<!-- Profile Card -->
+<div class="container">
+    <div class="card">
+        <div class="header">
+            <div class="hamburger-menu">
+                <div class="center"></div>
             </div>
-            <!-- text -->
-            <div class="content">
-                <div class="left">
-                    <div class="about-container">
-                        <h3 class="title">About</h3>
-                        <p class="text">You can see my biography and download this card.</p>
+            <a href="#" class="mail">
+                <i class="far fa-envelope"></i>
+            </a>
+            <div class="main">
+                <div class="image">
+                    <div class="hover">
+                        <i class="fas fa-camera fa-2x"></i>
                     </div>
-                    <!-- icon  -->
-                    <div class="icon-container">
-                        <a href="#" class="icon">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                        <a href="#" class="icon">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="icon">
-                            <i class="fab fa-google-plus-g"></i>
-                        </a>
-                        <a href="#" class="icon">
-                            <i class="fab fa-twitter"></i>
-                        </a>
+                </div>
+                <h3 class="name">Laurels Echichinwo Jr.</h3>
+                <h3 class="sub-name">@codewithlaurels</h3>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="about-container">
+                    <h3 class="title">About Me</h3>
+                    <p class="text">Welcome to my profile! Here you can find my biography and download my
+                        digital card.</p>
+                </div>
+                <div class="icon-container">
+                    <a href="#" class="icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="buttons-wrap">
+                    <div class="follow-wrap">
+                        <a href="index.html" class="follow" download>Download Digital Card</a>
                     </div>
-                    <!-- button  -->
-                    <div class="buttons-wrap">
-                        <div class="follow-wrap">
-                            <a href="index.html" class="follow" download>Download</a>
-                        </div>
-                        <div class="share-wrap">
-                            <a href="about.html" class="share">Biography</a>
-                        </div>
+                    <div class="share-wrap">
+                        <a href="about.html" class="share">Read My Biography</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Script code -->
+</div>
 
-    <script src="profile.js"></script>
+<!-- JavaScript Code -->
+<script src="profile.js"></script>
 </body>
-
 </html>
