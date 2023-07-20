@@ -1,145 +1,133 @@
 <html>
-<header>
-    <!-- navbar and menu -->
-    <nav class="navigation">
-        <nav class="navbar">
-            <ul class="nav-links">
-                <li><a class="a-1" href="Home.html">Home</a></li>
-                <li><a class="a-2" href="about.html">About Me</a></li>
-                <li><a class="a-3" href="index.html">My Profile</a></li>
-            </ul>
-        </nav>
-    </nav>
-    <!-- menu -->
-    <div class="section-menu">
-        <div class="toggleBox">
-            <a class="icon-menu" href="#" onclick="showmenu()">
-                <img class="menu"
-                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAKUlEQVRIiWNgGAWjgBbgP4V44C0YBSQDmsfBaCQPTkDzOBiN5FFARwAA/D9Fu8xYn84AAAAASUVORK5CYII=" />
-            </a>
-        </div>
-        <script>
-            function showmenu() {
-                document.querySelector('.navigation').classList.toggle('active');
-                document.querySelector('.close').classList.toggle('show');
-            }
-        </script>
-        <!-- end menu -->
-    </div>
-    <!-- end navbar and menu -->
-</header>
-<!-- head and link -->
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="about.css">
-    <title>About Laurels Echichinwo Jr.</title>
+    <title>About Laurels Echichinwo Jr. - Web Developer Extraordinaire</title>
 </head>
-<!-- end head and link -->
-
 <body>
-    <!-- text and image -->
-    <section>
-        <img src="image/about.png" alt="" class="img-about" data-aos="fade-left">
-        <h1 class="h-2" data-aos="fade-right">Biography</h1>
-        <h4 class="h-1" data-aos="fade-right">Hello, My name is Laurels Echichinwo Jr and I am a web developer. Coding is my passion and I love seeing the results of my efforts helping clients and users get the best experience. I am finding the best solutions to complex problems and yes I create beautiful websites your users will love. 
-            I am a solution-driven web developer adept at contributing to highly collaborative work environment and finding solutions to problems. Through training and practice I have a track record of developing complex web-based applications using best software practices
-
-            I am experienced in object-oriented programming, static and dynamic web development and wireframing. With my experience I have developed consumer-focused website using <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>PHP</strong> and <strong>JavaScript
-            I have good knowledge of the best practices for web design, user experience, and speed. My resume is available <a href="https://docs.google.com/document/d/1shHKls0T5dYmZZXD3hI0K2qoWcWoP2MV/edit?usp=sharing&ouid=112092971311238511725&rtpof=true&sd=truef"> here. </a>
-        </h4>
-    </section>
-    <!-- end text and image -->
-    <!-- text js css html -->
-    <section class="section-text" data-aos="zoom-in">
-        <div class="container-text">
-            <div class="box">
-          <span style="--i:1;"><i> css</i> <i> html</i> <i> script</i></span>
-         <span style="--i:2;"><i> css</i> <i> html</i> <i> script</i></span>
-        <span style="--i:3;"><i> css</i> <i> html</i> <i> script</i></span>
-       <span style="--i:4;"><i> css</i> <i> html</i> <i> script</i></span>
-      <span style="--i:5;"><i> css</i> <i> html</i> <i> script</i></span>
-     <span style="--i:6;"><i> css</i> <i> html</i> <i> script</i></span>
-    <span style="--i:7;"><i> css</i> <i> html</i> <i> script</i></span>
-   <span style="--i:8;"><i> css</i> <i> html</i> <i> script</i></span>
-   <span style="--i:9;"><i> css</i> <i> html</i> <i> script</i></span>
-    <span style="--i:10;"><i> css</i> <i> html</i> <i> script</i></span>
-     <span style="--i:11;"><i> css</i> <i> html</i> <i> script</i></span>
-      <span style="--i:12;"><i> css</i> <i> html</i> <i> script</i></span>
-        <span style="--i:13;"><i> css</i> <i> html</i> <i> script</i></span>
-          <span style="--i:14;"><i> css</i> <i> html</i> <i> script</i></span>
-            <span style="--i:15;"><i> css</i> <i> html</i> <i> script</i></span>
-             <span style="--i:16;"><i> css</i> <i> html</i> <i> script</i></span>
-                
+    <!-- Navigation Bar and Menu -->
+    <header>
+        <nav class="navigation">
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="Home.html">Home</a></li>
+                    <li><a class="nav-link" href="about.html">About Me</a></li>
+                    <li><a class="nav-link" href="index.html">My Profile</a></li>
+                </ul>
+            </nav>
+        </nav>
+        <!-- Toggle Menu -->
+        <div class="section-menu">
+            <div class="toggleBox">
+                <a class="icon-menu" href="#" onclick="showmenu()">
+                    <img class="menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAKUlEQVRIiWNgGAWjgBbgP4V44C0YBSQDmsfBaCQPTkDzOBiN5FFARwAA/D9Fu8xYn84AAAAASUVORK5CYII=" />
+                </a>
             </div>
+            <script>
+                function showmenu() {
+                    document.querySelector('.navigation').classList.toggle('active');
+                    document.querySelector('.close').classList.toggle('show');
+                }
+            </script>
         </div>
-    </section>
-    <!-- end text js css html -->
-    <!-- text-about html css js -->
-    <h1 class="my-skill" data-aos="zoom-in"> My skills
-        <hr>
-    </h1>
-    <div class="linner">
-        <!-- html-1 -->
-        <div class="container-about" data-aos="zoom-in">
-            <div class="skill-box">
-                <div class="skill-title">
-                    <div class="img-skill">
-                        <img src="image/skill.png" alt="" class="skill-icon">
-                    </div>
-                    <h3>HTML5</h3>
-                </div>
-                <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. <br> It
-                    is the fifth and last major HTML version that is a World Wide Web Consortium recommendation. The
-                    current specification is known as the HTML Living Standard</p>
-            </div>
-        </div>
-        <!-- end html-1 -->
-        <!-- js-2 -->
+    </header>
+php
+Copy code
+<!-- Biography Section -->
+<section>
+    <img src="image/about.png" alt="Laurels Echichinwo Jr." class="img-about" data-aos="fade-left">
+    <h1 class="h-2" data-aos="fade-right">Biography</h1>
+    <h4 class="h-1" data-aos="fade-right">Hello, I am Laurels Echichinwo Jr., a passionate web developer with a
+        focus on delivering exceptional user experiences. My journey into coding began with a spark of curiosity,
+        and it has grown into a blazing passion. I take immense pride in crafting beautiful websites that leave a
+        lasting impression on users, combining creativity with technical expertise.
 
-        <div class="container-about" data-aos="zoom-in">
-            <div class="skill-box">
-                <div class="skill-title">
-                    <div class="img-skill">
-                        <img src="image/css-1.png" alt="" class="skill-icon">
-                    </div>
-                    <h3>CSS3</h3>
-                </div>
-                <p>CSS is designed to enable the separation of presentation and content,including
-                    layout,colors,fonts.This separation can improve content accessibility, provide more
-                    flexibility and control in the specification of presentation characteristics, enable
-                    multiple web pages to
-                    share
-                    formatting by specifying the relevant CSS</p>
-            </div>
-        </div>
-        <!-- end css-3 -->
-        <!-- end text-about html css js -->
-        <!--360/16 = 22.5deg-->
-        <div class="container-about" data-aos="zoom-in">
-            <div class="skill-box">
-                <div class="skill-title">
-                    <div class="img-skill">
-                        <img src="image/js.png" alt="" class="skill-icon">
-                    </div>
-                    <h3>JavaScript</h3>
-                </div>
-                <p>Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. <br>
-                    Over 97% of websites use it client-side for web page behavior,[12] often incorporating
-                    third-party libraries.[13] Most web browsers have a dedicated JavaScript engine to execute the
-                    code on the user's device.</p>
-            </div>
-            <!-- end js-2 -->
-            <!-- css-3 -->
+        My journey has been characterized by a commitment to finding elegant solutions to complex problems. I thrive
+        in collaborative environments, leveraging my expertise to contribute effectively to projects. My expertise
+        spans object-oriented programming, dynamic web development, and wireframing.
 
+        I have honed my skills in developing consumer-focused websites using <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>PHP</strong>, and <strong>JavaScript</strong>. My deep understanding of web design best practices ensures that my creations prioritize user experience and performance.
+
+        I constantly seek to expand my knowledge and stay abreast of industry trends. Feel free to check out my
+        resume <a href="https://docs.google.com/document/d/1shHKls0T5dYmZZXD3hI0K2qoWcWoP2MV/edit?usp=sharing&ouid=112092971311238511725&rtpof=true&sd=truef">here</a> to learn more about my journey and expertise.</h4>
+</section>
+
+<!-- Text with CSS, HTML, and JavaScript Icons -->
+<section class="section-text" data-aos="zoom-in">
+    <div class="container-text">
+        <div class="box">
+            <span style="--i:1;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:2;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:3;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:4;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:5;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:6;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:7;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:8;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:9;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:10;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:11;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:12;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:13;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:14;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:15;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
+            <span style="--i:16;"><i>CSS</i> <i>HTML</i> <i>JavaScript</i></span>
         </div>
     </div>
-    <script>
-        AOS.init();
-    </script>
-</body>
+</section>
 
+<!-- Skills Section - HTML5, CSS3, JavaScript -->
+<h1 class="my-skill" data-aos="zoom-in">My Skills<hr></h1>
+<div class="linner">
+    <!-- HTML5 -->
+    <div class="container-about" data-aos="zoom-in">
+        <div class="skill-box">
+            <div class="skill-title">
+                <div class="img-skill">
+                    <img src="image/skill.png" alt="HTML5 Icon" class="skill-icon">
+                </div>
+                <h3>HTML5</h3>
+            </div>
+            <p>HTML5 is a powerful markup language used for structuring and presenting content on the World Wide Web.
+                It enables developers to create rich and interactive web pages with enhanced multimedia support.</p>
+        </div>
+    </div>
+
+    <!-- CSS3 -->
+    <div class="container-about" data-aos="zoom-in">
+        <div class="skill-box">
+            <div class="skill-title">
+                <div class="img-skill">
+                    <img src="image/css-1.png" alt="CSS3 Icon" class="skill-icon">
+                </div>
+                <h3>CSS3</h3>
+            </div>
+            <p>CSS3 empowers web developers to create stunning styles and layouts for websites, enhancing user
+                experience and visual appeal. It allows for greater control over presentation and responsiveness.</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="container-about" data-aos="zoom-in">
+        <div class="skill-box">
+            <div class="skill-title">
+                <div class="img-skill">
+                    <img src="image/js.png" alt="JavaScript Icon" class="skill-icon">
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+            <p>JavaScript is a versatile programming language that adds interactivity and dynamic behavior to web
+                pages. It enables developers to create complex functionalities and enhance user engagement.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    AOS.init();
+</script>
+</body>
 </html>
