@@ -342,13 +342,26 @@ html, body {
 }
 
 /* Text "HTML CSS JS" Animation */
+.section-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; /* Adjust the margin-top value as needed */
+}
+
 .container-text {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Set the maximum width as needed */
+    text-align: center;
+}
+/* .container-text {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 45.0625vw;
     margin-top: 220px;
-}
+} */
 
 .container-text .box {
     transform-style: preserve-3d;
@@ -395,12 +408,19 @@ html, body {
     color: #E03D2C;
 }
 
+.box {
+    display: inline-block;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: animate 25s linear infinite;
+}
 .my-skill {
     color: #f6d8bb;
     margin-top: 200px;
     font-size: 45px;
     margin-left: 45.13888888889vw;
 }
+
 
 .my-skill hr {
     width: 140px;
