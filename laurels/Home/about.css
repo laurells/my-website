@@ -1,9 +1,6 @@
 html, body {
-    background-color: blueviolet;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
+    background-color: #551A8B;
+    margin: 0;
     font-family: 'Oswald', sans-serif;
     padding: 0;
     box-sizing: border-box;
@@ -12,8 +9,7 @@ html, body {
     overflow-x: hidden;
 }
 
-/* navBar and menu */
-
+/* Navigation Bar and Menu */
 .navigation {
     position: sticky;
     top: 0;
@@ -23,8 +19,8 @@ html, body {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #800080;
 }
-
 
 .navbar {
     margin-top: 20px;
@@ -32,7 +28,6 @@ html, body {
 
 .nav-links {
     display: flex;
-    
 }
 
 .nav-links li {
@@ -51,12 +46,11 @@ html, body {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 0;
-    height: 3px;
+    left: 50%;
     width: 0%;
+    height: 3px;
     background: #f6d8bb;
     transition: all 0.4s ease;
-    left:50%;
     transform: translateX(-50%);
 }
 
@@ -64,20 +58,12 @@ html, body {
     width: 100%;
 }
 
-.navbar a {
-    margin-left: 60px;
-    text-decoration: none;
-    color: #f6d8bb;
-}
-
 .button-1 {
-    width: 110px; 
+    width: 110px;
     height: 40px;
-    border-radius: 5px 5px 5px 5px;
-    border: 1px 1px 1px 1px;
-    border-color: #f6d8bb;
-    border-style: dashed;
-    outline-width: 0px;
+    border-radius: 5px;
+    border: dashed 1px #f6d8bb;
+    outline: none;
     background-color: #E03D2C;
     box-shadow: none;
     font-family: 'Oswald', sans-serif;
@@ -89,13 +75,11 @@ html, body {
 
 .button-1:hover {
     color: #fff;
-    border-style: dashed;
-    border-color: #fff;
+    border: dashed 1px #fff;
 }
 
 .logo-1 {
     display: flex;
-    float: right;
     width: 120px;
     height: 80px;
     justify-content: center;
@@ -103,10 +87,8 @@ html, body {
     margin-top: -4.5rem;
 }
 
-/* text and image */
-
+/* Text and Image */
 .img-about {
-    position: relative;
     display: flex;
     float: right;
     width: 600px;
@@ -129,41 +111,39 @@ html, body {
 }
 
 /* Scroll bar style */
-
 ::-webkit-scrollbar {
-    background-color: white;
+    background-color: #fff;
     width: 7px;
-    border-radius: 2px 2px 2px 2px;
+    border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: blueviolet;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px;
 }
 
-/* Respansiv */
-
+/* Responsive */
 @media (max-width: 652px) {
     .section-text {
         display: none;
     }
-    
+
     .my-skill {
         display: none;
     }
 }
 
 @media (max-width: 1270px) {
-    .h-1{
+    .h-1 {
         margin-right: 30px;
     }
 
-    .h-2{
+    .h-2 {
         margin-right: 30px;
     }
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 510px) {
     .service_header {
         margin-bottom: 8px;
     }
@@ -171,19 +151,18 @@ html, body {
     .copy_right {
         margin-bottom: 8px;
     }
-
 }
 
-@media(max-width: 625px) {
-    .logo-1{
+@media (max-width: 625px) {
+    .logo-1 {
         display: none;
     }
 
-    .h-1{
+    .h-1 {
         margin-left: 25px;
     }
 
-    .h-2{
+    .h-2 {
         margin-left: 25px;
     }
 }
@@ -193,15 +172,14 @@ html, body {
         margin-left: 40px;
     }
 
-    .h-1{
+    .h-1 {
         margin-right: 30px;
     }
 
-    .h-2{
+    .h-2 {
         margin-right: 30px;
     }
 }
-
 
 @media (max-width: 427px) {
     .nav-links a {
@@ -209,13 +187,12 @@ html, body {
     }
 }
 
-
 @media (max-width: 703px) {
-    .h-1{
+    .h-1 {
         margin-right: 30px;
     }
 
-    .h-2{
+    .h-2 {
         margin-right: 30px;
     }
 
@@ -240,10 +217,11 @@ html, body {
     margin-right: 40px;
 }
 
-/* text html css js */
-
+/* Text "HTML CSS JS" Animation */
 .container-text {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 45.0625vw;
     margin-top: 220px;
 }
@@ -261,11 +239,11 @@ html, body {
     text-transform: uppercase;
     font-weight: 900;
     padding: 0 10px;
-    background: linear-gradient(80deg, transparent, rgba(0,0,0,0.5),transparent);
+    background: linear-gradient(80deg, transparent, rgba(0, 0, 0, 0.5), transparent);
     line-height: 0.76em;
     transform-style: preserve-3d;
-    text-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    transform: translate(-50%,-50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(106px);
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(106px);
 }
 
 @keyframes animate {
@@ -305,23 +283,17 @@ html, body {
     margin-left: 2px;
     margin-top: 5px;
     color: #f6d8bb;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px;
     height: 2.5px;
     background-color: #f6d8bb;
     border: none;
 }
 
-body {
-    background-color: blueviolet;
-}
-
-/* html js, css */
-
+/* Text "HTML JS, CSS" Section */
 .container-about {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
     padding: 1rem 40px;
     font-size: 1.0rem;
 }
@@ -374,11 +346,10 @@ body {
 .skill-icon-css {
     width: 91px;
     height: 53px;
-    border-radius: 100px 100px 100px 100px;
+    border-radius: 100px;
 }
 
-/* menu  */
-
+/* Menu */
 .toggleBox a img {
     position: fixed;
     filter: invert(1);
@@ -390,59 +361,58 @@ body {
     z-index: 10000;
 }
 
-/* responsive for nav and menu */
-
+/* Responsive for Nav and Menu */
 @media (max-width: 562px) {
-.nav-links li a:before {
-    display: none;
-}
+    .nav-links li a:before {
+        display: none;
+    }
 
-nav.navigation {
-    display: none;
-    align-items: center;
-    z-index: 1000;
-}
+    nav.navigation {
+        display: none;
+        align-items: center;
+        z-index: 1000;
+    }
 
-nav.navigation.active {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #ffd3aa;
-    font-size: 1px;
-}
+    nav.navigation.active {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffd3aa;
+        font-size: 1px;
+    }
 
-nav.navigation.active a {
-    padding: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    transition: 2.2s;
-}
+    nav.navigation.active a {
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        transition: 2.2s;
+    }
 
-.navigation a {
-    display: flex;
-    margin-top: 0;
-}
+    .navigation a {
+        display: flex;
+        margin-top: 0;
+    }
 
-.navigation ul {
-    display: inline;
-}
+    .navigation ul {
+        display: inline;
+    }
 }
 
 @media (max-width: 500px) { 
-.navigation a {
-    margin-left: 40px;
-}
+    .navigation a {
+        margin-left: 40px;
+    }
 
-.toggleBox a img {
-    filter: invert(1);
-    margin-left: 420px;
-    margin-top: 20px;
-}
+    .toggleBox a img {
+        filter: invert(1);
+        margin-left: 420px;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 456px) {
@@ -459,7 +429,6 @@ nav.navigation.active a {
 }
 
 @media (max-width: 472px) {
-
     .navigation a {
         margin-left: 40px;
     }
@@ -498,7 +467,7 @@ nav.navigation.active a {
         margin-left: 360px;
         margin-top: 20px;
     }
-} 
+}
 
 @media (max-width: 408px) {
     .toggleBox {
@@ -525,7 +494,6 @@ nav.navigation.active a {
 }
 
 @media (max-width: 562px) {
-
     .section-menu {
         background: #E03D2C;
         padding: 20px;
