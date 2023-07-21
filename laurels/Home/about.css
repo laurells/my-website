@@ -736,6 +736,77 @@ html, body {
     }
 }
 
+/* Container for all skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+/* Skills section style */
+.container-about {
+    width: 300px; /* Adjust the width as needed */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f6d8bb;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #800080;
+    text-align: center;
+    color: #f6d8bb;
+}
+
+.skill-box {
+    margin-top: 20px;
+}
+
+.skill-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img-skill {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.skill-title h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.skill-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.container-about p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container-about {
+        width: 80%;
+    }
+}
+
+
 @media (max-width: 1100px) {
     .img-about {
         display: none;
