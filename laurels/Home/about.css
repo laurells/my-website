@@ -746,7 +746,7 @@ html, body {
 
 /* Skills section style */
 .container-about {
-    width: 300px; /* Adjust the width as needed */
+    flex-basis: calc(33.33% - 40px); /* Arrange three items in a row with some spacing */
     margin: 20px;
     padding: 20px;
     border: 1px solid #f6d8bb;
@@ -802,9 +802,10 @@ html, body {
     }
     
     .container-about {
-        width: 80%;
+        flex-basis: 80%; /* Make the skills take up 80% of the width in mobile view */
     }
 }
+
 
 
 @media (max-width: 1100px) {
